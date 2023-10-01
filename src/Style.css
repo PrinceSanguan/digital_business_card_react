@@ -1,0 +1,68 @@
+/* This style is for all*/
+
+* {
+  margin: 0;
+}
+
+/*This style is for App */
+
+.app--container {
+  padding: 30px;
+}
+/*This style is for Header */
+
+.header--container {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.header--image {
+  width: 200px;
+}
+
+.header--name {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.header--work {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header--web {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*This style is for Main */
+
+.main--container {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.main--button {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*This style is for Footer */
+
+.footer--container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
